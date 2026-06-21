@@ -1,3 +1,7 @@
+
+> TODO: Resumo no formato de notes dos primeiros capitulos do livro do James Cutajar. Organizar de alguma fora, está muito misturado os assuntos.
+
+
 `goroutine` é o modelo básico de uma execução concorrente
 
 Go nos dá muitas abstrações para coodenar execuções concorrentes em uma tarefa comum. Uma dessas abstrações é conhecidas como `channel`. Channel permite uma ou mais goroutine passar mensagens uma para outras, permitiando a troca de informação e sincronização de multiplas execuções de uma forma fácil e intuítiva.
