@@ -1,0 +1,4 @@
+## Timout de API 
+Objetivo: Dominar o bloqueio não-determinístico com select e garantir que seu software não fique travado esperando serviços de terceiros.
+
+Crie uma função que simula uma chamada de API demorada, retornando uma resposta após um tempo aleatório entre 1 e 5 segundos. Na função main, chame essa função dentro de uma goroutine para que ela não bloqueie o código. Utilize a estrutura select em conjunto com time.After para impor um limite máximo de tolerância de 2 segundos. Se a "API" responder antes do tempo limite, imprima o resultado. Se demorar mais, interrompa a espera e imprima "Erro: Tempo limite excedido".

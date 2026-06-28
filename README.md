@@ -5,11 +5,10 @@ This repo aims learning and practice concurrent and programming go applications.
 
 
 #### Cover
-* CSP model
+* [CSP model](./notes/csp_model.md)
 * Concurrency Patterns
 * Go runtime
-* Goroutines
-* Channels
+* [Channels](./notes/channels.md)
 * Waitgroups
 * Mutex
 * Cond
